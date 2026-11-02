@@ -1,3 +1,4 @@
+'''
 import string
 
 def caesar_cipher(text, shift_amount):
@@ -23,8 +24,8 @@ def caesar_cipher(text, shift_amount):
             new_string += text[i]
     
     return new_string
-
 '''
+
 # faster solution
 def caesar_cipher(text, shift_amount):
     new_string = ""
@@ -39,4 +40,3 @@ def caesar_cipher(text, shift_amount):
             # Leave other chars alone
             new_string += char
     return new_string
-'''
